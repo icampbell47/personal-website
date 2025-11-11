@@ -3,14 +3,17 @@ import React from 'react';
 const Home = () => {
     return (
         <div className = "home-page">
-            <header>Welcome to my personal website</header>
+            <header>
+                <h1>Welcome to My Website</h1>
+            </header>
             <main>
-                <p>This is the home page where you can find information about me and my projects.</p>
+                <p>This is the home page content.</p>
             </main>
             <footer>
-                <p>© 2025 My Personal Website</p>
+                <p>© 2025 My Website</p>
             </footer>
         </div>
     )
 }
+
 export default Home;
